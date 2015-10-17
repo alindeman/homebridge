@@ -358,7 +358,7 @@ NestThermostatAccessory.prototype = {
                 manfDescription: "Target Temperature",
                 designedMinValue: 16,
                 designedMaxValue: 38,
-                designedMinStep: 1,
+                //designedMinStep: 0.01,
                 unit: "celsius"
             },{
                 cType: types.TEMPERATURE_UNITS_CTYPE,
