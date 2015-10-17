@@ -370,7 +370,7 @@ NestThermostatAccessory.prototype = {
                 },
                 perms: ["pr","ev"],
                 format: "int",
-                initialValue: 0,
+                initialValue: 1,
                 supportEvents: false,
                 supportBonjour: false,
                 manfDescription: "Unit",
